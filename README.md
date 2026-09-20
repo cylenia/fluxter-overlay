@@ -6,8 +6,6 @@ Those details are on my website.
 
 # fluxter-overlay
 
-##
-
 Gentoo overlay for [polonius' fluxer-tui fork called fluxter](https://github.com/AIVirtuoso/fluxter).\
 Note that unlike the original project which was MIT, this fork is GPL-3+.\
 This overlay is still MIT.
