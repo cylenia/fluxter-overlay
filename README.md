@@ -1,10 +1,18 @@
+# UNMAINTAINED!!!
+
+I use the official desktop client now. I also maintain [an overlay](https://git.cylenia.dev/cylenia/fluxer-overlay) for that if you are interested.
+Feel free to fork and continue updating this overlay! If you end up doing that, email me or message me on Fluxer and I will add your fork to this readme.
+Those details are on my website.
+
 # fluxter-overlay
+
+##
 
 Gentoo overlay for [polonius' fluxer-tui fork called fluxter](https://github.com/AIVirtuoso/fluxter).\
 Note that unlike the original project which was MIT, this fork is GPL-3+.\
 This overlay is still MIT.
 
-# Installation
+## Installation
 
 It is mandatory to use the live ebuild at the current moment, because no releases exist.\
 You will need to set `/etc/portage/package.accept_keywords/fluxter` to `=net-im/fluxter-9999 **`.\
@@ -21,7 +29,7 @@ doas emerge --sync
 doas emerge --ask net-im/fluxter
 ```
 
-# Migration Guide
+## Migration Guide
 
 If you used this overlay before 09/10/26, you may have the old package name.\
 Polonius changed the name of the package and repo upstream to Fluxter.\
@@ -38,7 +46,7 @@ doas rm /etc/portage/package.accept_keywords/fluxer-tui
 # follow installation steps above
 ```
 
-# Credits
+## Credits
 
 - polonius for maintaining the fork of fluxer-tui
 - dogbonewish for creating the original project
